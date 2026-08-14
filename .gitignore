@@ -1,0 +1,11 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+.venv/
+.env
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.mem0/
+.mem0_proof_db/
+chroma.sqlite3
