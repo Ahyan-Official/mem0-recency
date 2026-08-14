@@ -8,4 +8,5 @@ dist/
 build/
 .mem0/
 .mem0_proof_db/
+.mem0_fix_db/
 chroma.sqlite3
