@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mem0-recency"
+version = "0.1.0"
+description = "An add-on for Mem0 that removes stale facts so agents don't act on outdated memory."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Ahyan" }]
+keywords = ["mem0", "llm", "agents", "memory", "supersession", "ai"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Developers",
+]
+dependencies = [
+    "openai>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.urls]
+Homepage = "https://github.com/Ahyan-Official/mem0-recency"
+Repository = "https://github.com/Ahyan-Official/mem0-recency"
+
+[tool.setuptools]
+packages = ["mem0_recency"]
